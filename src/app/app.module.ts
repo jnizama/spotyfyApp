@@ -7,7 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ArtistComponent } from './components/artist/artist.component';
 import { SearchComponent } from './components/search/search.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ListcountriesComponent } from './components/listcountries/listcountries.component'
+import { ListcountriesComponent } from './components/listcountries/listcountries.component';
+import { NoimagePipe } from './pipes/noimage.pipe'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ListcountriesComponent } from './components/listcountries/listcountries
     HomeComponent,
     ArtistComponent,
     SearchComponent,
-    ListcountriesComponent
+    ListcountriesComponent,
+    NoimagePipe
   ],
   imports: [
     BrowserModule,
